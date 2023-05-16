@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trivia Time</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="../styles/index.css" />
+		<link rel="stylesheet" href="../styles/jugar.css" />
+		<script src="../scripts/jugar.js"></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navbar-left">
+				<span class="navbar-title">Trivia Time</span>
+			</div>
+			<div class="navbar-right">
+				<!-- <div class="opions-navbar">
+              <ul>
+                <li><a href="#">Incio</a></li>
+                <li><a href="#">Jugar</a></li>
+                <li><a href="#">Perfil</a></li>
+              </ul>
+            </div> -->
+				<div class="menu-toggle" onclick="toggleMenu()">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<div class="menu-options">
+					<ul>
+						<li><a href="#">Op1</a></li>
+						<li><a href="#">Op2</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="jugar-container">
+			<div class="container_card">
+				<button class="timer">1:00</button>
+				<div class="card">
+					<img src="../img/caracas.jpg" alt="Imagen" class="question-image" />
+					<p class="question">¿Cual es la capital de Venezuela?</p>
+				</div>
+			</div>
+
+			<div class="answer">
+				<button class="option-button">La Guaira</button>
+			</div>
+
+			<div class="answer">
+				<button class="option-button">Distrito Capital</button>
+			</div>
+
+			<div class="answer">
+				<button class="option-button">Merida</button>
+			</div>
+
+			<div class="answer">
+				<button class="option-button">Lara</button>
+			</div>
+
+			<dir class="listo-button">
+				<button>Listo</button>
+			</dir>
+		</div>
+	</body>
+</html>
